@@ -7,6 +7,16 @@ html {
 }
 
 body {
-  margin: 0;
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(105, 218, 243);
+  font: 'fira sans';
+}
+
+header {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
